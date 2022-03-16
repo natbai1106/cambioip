@@ -39,7 +39,7 @@ else
     StartMenu
 fi
 }
-
+#explicando git...................
 function StartMenu(){
     op=$(whiptail --title "Programación para Sistemas Abiertos II - Ejercicio Examen II" \
      --menu "\n¿Que desea hacer?" 12 70 3 \
