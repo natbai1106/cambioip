@@ -32,7 +32,7 @@ function ChangeIp(){
         } | whiptail --gauge "Cambiando IP, por favor espere..." 6 50 0
         StartMenu
     else
-        whiptail --msgbox "$USER, aún no cambió su IP, por favor cambiela" 8 50
+        whiptail --msgbox "$USER, aún no cambió su IP, por favor cambiala" 8 50
         ChangeIp
     fi
 else
@@ -41,7 +41,7 @@ fi
 }
 
 function StartMenu(){
-    op=$(whiptail --title "Programación para Sistemas Abiertos II - Ejercicio Práctico" \
+    op=$(whiptail --title "Programación para Sistemas Abiertos II - Ejercicio Examen II" \
      --menu "\n¿Que desea hacer?" 12 70 3 \
      "1" "Cambiar dirección IP" \
      "2" "Cambiar fondo de pantalla" \
